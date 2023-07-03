@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: arial;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(18, 71, 89);
+}
+form{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+fieldset{
+    border:4px ridge rgb(157, 123, 39);
+    padding: 20px;
+    border-radius: 50px 0 50px;
+}
+legend{
+    color: goldenrod;
+    font-weight: 700;
+}
+form input{
+    background-color: rgb(205, 245, 246);
+    color:rgb(2, 94, 94);
+    height: 5vh;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+form button{
+    background-color: grey;
+    color: gold;
+    height: 6vh;
+    width: 5vw;
+    border: 2px rgba(61, 61, 61, 0.38) solid;
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+    width: 70%;
+    margin: 0 auto;
+}
+ul li{
+    height: 5vh;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+}
+ul li input{
+    width: 80%;
+    height: 5vh;
+    background-color: cadetblue;
+}
+ul li input:focus{
+    background-color: cadetblue;
+    color: wheat;
+    font-weight: 600;
+}
+ul li button{
+    height: 5vh;
+    width: 5vw;
+    border: 1 px inherit solid;
+    border-radius: 10px;
+}
+#del{
+    background-color: rgba(178, 37, 37, 0.832);
+    color: white;
+}
+#edt{
+    /* background-color: rgba(201, 201, 39, 0.694); */
+    background-color:tan;
+    color: black;
+}
+:disabled{
+    background-color: lightgrey;
+    color:black;
+    opacity: 0.5;
+}
+h4{
+    text-align: center;
+    color: goldenrod;
+}
