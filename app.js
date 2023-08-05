@@ -5,7 +5,6 @@ let ul = document.querySelector("ul");
 let del = document.querySelectorAll("#del");
 let edt = document.querySelectorAll("#edt");
 
-console.dir(form);
 form.addEventListener("submit", e => {
   e.preventDefault();
   let val = e.target[1].value;
